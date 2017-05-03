@@ -10,7 +10,7 @@ public class manager : MonoBehaviour {
 	public GameObject obstacle;
 	public GameObject scoreobj;
 
-	float timeOut = 2.4f;
+	float timeOut = 2f;
 	float timeElapsed;
 
 	// Use this for initialization

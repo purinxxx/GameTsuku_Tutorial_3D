@@ -12,7 +12,7 @@ public class obstacle : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector3 pos = transform.position;
-		pos.x -= 0.12f;
+		pos.x -= 0.15f;
 		transform.position = pos;
 		if(transform.position.x < -25){
 			Destroy(this.gameObject);
